@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="vpnClientApp.Views.LoginView">
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" Margin="40">
+        <TextBlock Text="Login to your account" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+        <TextBox x:Name="EmailBox" Watermark="Email" Grid.Row="1" Margin="0,0,0,10"/>
+        <TextBox x:Name="PasswordBox" Watermark="Password" Grid.Row="2" Margin="0,0,0,10" PasswordChar="*"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,0,0,10">
+            <CheckBox x:Name="RememberMeBox" Content="Remember me"/>
+        </StackPanel>
+        <Button x:Name="LoginButton" Content="Login" Grid.Row="4" Margin="0,0,0,10" Height="35"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="5" HorizontalAlignment="Center">
+            <TextBlock Text="Forgot password" Foreground="Blue" Cursor="Hand" Margin="0,0,10,0"/>
+            <Button x:Name="SignUpButton" Content="Sign in"/>
+        </StackPanel>
+    </Grid>
+</UserControl> 

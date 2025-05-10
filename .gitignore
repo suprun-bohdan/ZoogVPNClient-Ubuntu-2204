@@ -1,0 +1,78 @@
+# Build outputs
+bin/
+obj/
+publish/
+*.deb
+
+# IDE files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# Project specific
+*.ovpn
+!Configs/*.ovpn
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Temporary build directories
+vpnClientApp_1.0.0/
+vpnclientapp_1.0.0/
+zoogvpn_1.0.0/ 
