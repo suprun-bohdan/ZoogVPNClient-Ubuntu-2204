@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:vpnClientApp.Views"
+        x:Class="vpnClientApp.MainWindow"
+        Title="vpnClientApp"
+        Width="475" Height="400" MinWidth="475" MinHeight="400" MaxWidth="475" MaxHeight="400" WindowStartupLocation="CenterScreen">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush Source="avares://vpnClientApp/background.png" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <views:ServerSelectView/>
+        </Grid>
+</Window>
